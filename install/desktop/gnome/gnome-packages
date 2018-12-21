@@ -3,7 +3,7 @@
 
 options=()
 
-package=""
+package="gnome"
 items=$(pacman -Sqg $package)
 for item in $items; do
   options+=("$item" "" on)
